@@ -43,7 +43,8 @@ nav ul li a:hover {
 body {
     margin: 0px;
     background-color: rgb(234, 210, 214);
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .top_container {
