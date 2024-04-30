@@ -141,3 +141,24 @@ body {
     border-radius: 10px;
     line-height: 1.6;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    gap: 20px;
+    /* Gap between grid items */
+}
+
+.gallery-item {
+    align-self: center;
+}
+
+.gallery-item img {
+    border: 5px solid rgb(188, 90, 107);
+    /* Border same color as profile pic */
+    width: 80%;
+    /* Ensure images fill the container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
