@@ -114,16 +114,17 @@ body {
 }
 
 .nav-button {
-    padding: 10px 20px;
+    padding: 15px 30px;
     margin: 0 10px;
     color: rgb(77, 83, 77);
     background-color: #f9dbe3;
     /* Lighter pink */
     border: 2px solid #BC5A6B;
     /* Dark pink */
-    border-radius: 20px;
+    border-radius: 10px;
     text-decoration: none;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .nav-button:hover {
