@@ -45,6 +45,10 @@ body {
     margin-bottom: 20px;
 }
 
+.no-padding-small-header {
+    font-size: 20px;
+}
+
 .contact-text-box {
     background-color: #f9dbe3;
     /* Lighter pink */
@@ -64,7 +68,7 @@ body {
 }
 
 .title {
-    color: #BC5A6B;
+    color: rgb(77, 83, 77);
     /* Dark pink */
     margin-top: 0;
 }
@@ -76,7 +80,7 @@ body {
 .section-header {
     font-size: 24px;
     font-weight: bold;
-    color: #BC5A6B;
+    color: rgb(77, 83, 77);
     /* Dark pink */
     margin-top: 20px;
     margin-bottom: 10px;
