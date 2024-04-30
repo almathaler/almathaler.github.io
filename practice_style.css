@@ -48,8 +48,14 @@ body {
     margin-bottom: 20px;
 }
 
-.no-padding-small-header {
-    font-size: 20px;
+.gif-and-text {
+    display: flex;
+    align-items: center;
+}
+
+.phone-image {
+    max-width: 100px;
+    margin-right: 5px;
 }
 
 .contact-text-box {
@@ -68,6 +74,10 @@ body {
     border-radius: 4px;
     padding: 5px;
     /* Adjust as needed to create the tight border effect */
+}
+
+.no-padding-small-header {
+    font-size: 20px;
 }
 
 .title {
