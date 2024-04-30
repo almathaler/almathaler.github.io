@@ -31,14 +31,6 @@ body {
     align-items: center;
 }
 
-.right-section {
-    width: 75%;
-    /* 3/4 of the screen width */
-    padding: 20px;
-    box-sizing: border-box;
-    overflow-y: auto;
-    /* Enable vertical scrolling if needed */
-}
 
 .profile-image {
     max-width: 100%;
@@ -80,14 +72,19 @@ body {
     font-size: 20px;
 }
 
+.right-section {
+    width: 75%;
+    /* 3/4 of the screen width */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    /* Enable vertical scrolling if needed */
+}
+
 .title {
     color: rgb(77, 83, 77);
     /* Dark pink */
     margin-top: 0;
-}
-
-.lorem-ipsum {
-    line-height: 1.6;
 }
 
 .section-header {
@@ -142,23 +139,34 @@ body {
     line-height: 1.6;
 }
 
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    /* Center align items horizontally */
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* 2 columns */
     gap: 20px;
-    /* Gap between grid items */
+    align-items: center;
+    /* Center align items vertically */
 }
 
+
 .gallery-item {
-    align-self: center;
+    text-align: center;
 }
 
 .gallery-item img {
-    border: 5px solid rgb(188, 90, 107);
-    /* Border same color as profile pic */
-    width: 80%;
-    /* Ensure images fill the container */
+    border: 5px solid #BC5A6B;
+    border-radius: 10px;
+    max-width: 80%;
     height: auto;
-    /* Maintain aspect ratio */
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(77, 83, 77);
 }
