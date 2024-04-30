@@ -39,26 +39,26 @@ body {
 
 .profile-image {
     max-width: 100%;
-    border: 5px solid #FFD3DF;
+    border: 5px solid #f9dbe3;
     /* Dark pink */
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
 .contact-text-box {
-    background-color: #FFD3DF;
+    background-color: #f9dbe3;
     /* Lighter pink */
     padding: 5px;
     border-radius: 10px;
-    line-height: 1.6;
+    /* line-height: 1.6; */
 }
 
 .inner-contact-text-box {
-    background-color: #FFD3DF;
+    background-color: #f9dbe3;
     /* Light pink */
     border: 2px solid #BC5A6B;
     /* Dark pink */
-    border-radius: 10px;
+    border-radius: 4px;
     padding: 5px;
     /* Adjust as needed to create the tight border effect */
 }
@@ -100,7 +100,7 @@ body {
     padding: 10px 20px;
     margin: 0 10px;
     color: rgb(77, 83, 77);
-    background-color: #FFD3DF;
+    background-color: #f9dbe3;
     /* Lighter pink */
     border: 2px solid #BC5A6B;
     /* Dark pink */
@@ -115,9 +115,9 @@ body {
 }
 
 .text-box {
-    background-color: #FFD3DF;
+    background-color: #f9dbe3;
     /* Lighter pink */
-    padding: 20px;
+    padding: 10px;
     border: 2px solid #BC5A6B;
     /* Dark pink */
     border-radius: 10px;
