@@ -24,9 +24,9 @@ nav ul li a {
     /* Remove underlines from links */
     padding: 10px 20px;
     /* Add padding to the links */
-    background-color: rgb(196, 210, 196);
+    background-color: rgb(244, 231, 233);
     /* Background color for the buttons */
-    border: 3px solid rgb(196, 210, 196);
+    border: 3px solid rgb(188, 90, 107);
     /* Add border around the links */
     border-radius: 5px;
     /* Add border radius to create rounded corners */
@@ -63,7 +63,7 @@ body {
 
 .profile img {
     max-width: 80%;
-    border: 5px solid rgb(196, 210, 196);
+    border: 5px solid rgb(188, 90, 107);
 }
 
 .profile_content {
@@ -91,7 +91,7 @@ body {
 .bar {
     width: 100%;
     height: 5px;
-    background-color: rgb(196, 210, 196);
+    background-color: rgb(188, 90, 107);
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -109,7 +109,7 @@ body {
 .subtitle_bar {
     width: calc(100% - 40px);
     height: 5px;
-    background-color: rgb(196, 210, 196);
+    background-color: rgb(188, 90, 107);
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -134,7 +134,7 @@ body {
 }
 
 .gallery-item img {
-    border: 5px solid rgb(196, 210, 196);
+    border: 5px solid rgb(188, 90, 107);
     /* Border same color as profile pic */
     width: 80%;
     /* Ensure images fill the container */
