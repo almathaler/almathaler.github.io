@@ -170,3 +170,14 @@ body {
     margin-top: 10px;
     color: rgb(77, 83, 77);
 }
+
+.blockquote {
+    margin-left: 20px;
+    /* Adjust the indentation */
+    border-left: 3px solid #BC5A6B;
+    /* Vertical bar */
+    padding-left: 10px;
+    /* Add space between the vertical bar and the text */
+    font-style: italic;
+    /* Italicize the text */
+}
